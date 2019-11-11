@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.v5.identhq.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.v5.identhq.testcases.CampaignInfoSetupTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="destroyFramework"/>
+          <include name="campaigInfoSetupTest" invocation-numbers="0"/>
+          <include name="setUpDriver"/>
+          <include name="beforeMethod"/>
+          <include name="initializeFramework"/>
+        </methods>
+      </class> <!-- com.v5.identhq.testcases.CampaignInfoSetupTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.v5.identhq.testcases.CampaignBudgetSetupTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="campaigBudgetSetupTest"/>
+          <include name="destroyFramework"/>
+          <include name="setUpDriver"/>
+          <include name="skipTest"/>
+          <include name="beforeMethod"/>
+          <include name="initializeFramework"/>
+        </methods>
+      </class> <!-- com.v5.identhq.testcases.CampaignBudgetSetupTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
