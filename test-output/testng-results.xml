@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="My suite" duration-ms="32863" started-at="2019-11-11T16:15:59Z" finished-at="2019-11-11T16:16:32Z">
+  <suite name="Default suite" duration-ms="20801" started-at="2019-11-11T16:44:16Z" finished-at="2019-11-11T16:44:37Z">
     <groups>
     </groups>
-    <test name="Compare Prices" duration-ms="32863" started-at="2019-11-11T16:15:59Z" finished-at="2019-11-11T16:16:32Z">
-      <class name="com.testcases.Assignment2Test">
-        <test-method status="PASS" signature="initializeFramework()[pri:0, instance:com.testcases.Assignment2Test@f6c48ac]" name="initializeFramework" is-config="true" duration-ms="10" started-at="2019-11-11T21:45:59Z" finished-at="2019-11-11T21:45:59Z">
+    <test name="Default test" duration-ms="20801" started-at="2019-11-11T16:44:16Z" finished-at="2019-11-11T16:44:37Z">
+      <class name="com.testcases.Assignment1Test">
+        <test-method status="PASS" signature="initializeFramework()[pri:0, instance:com.testcases.Assignment1Test@f6c48ac]" name="initializeFramework" is-config="true" duration-ms="42" started-at="2019-11-11T22:14:16Z" finished-at="2019-11-11T22:14:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeFramework -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testcases.Assignment2Test@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="2103" started-at="2019-11-11T21:45:59Z" finished-at="2019-11-11T21:46:01Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testcases.Assignment1Test@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="4851" started-at="2019-11-11T22:14:16Z" finished-at="2019-11-11T22:14:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="amazonPrice()[pri:1, instance:com.testcases.Assignment2Test@f6c48ac]" name="amazonPrice" duration-ms="14061" started-at="2019-11-11T21:46:01Z" finished-at="2019-11-11T21:46:16Z">
+        <test-method status="PASS" signature="addMobileToCart()[pri:0, instance:com.testcases.Assignment1Test@f6c48ac]" name="addMobileToCart" duration-ms="13162" started-at="2019-11-11T22:14:21Z" finished-at="2019-11-11T22:14:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonPrice -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testcases.Assignment2Test@f6c48ac]" name="afterMethod" is-config="true" duration-ms="3944" started-at="2019-11-11T21:46:16Z" finished-at="2019-11-11T21:46:19Z">
+        </test-method> <!-- addMobileToCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testcases.Assignment1Test@f6c48ac]" name="afterMethod" is-config="true" duration-ms="2770" started-at="2019-11-11T22:14:34Z" finished-at="2019-11-11T22:14:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=amazonPrice status=SUCCESS method=Assignment2Test.amazonPrice()[pri:1, instance:com.testcases.Assignment2Test@f6c48ac] output={null}]]]>
+                <![CDATA[[TestResult name=addMobileToCart status=SUCCESS method=Assignment1Test.addMobileToCart()[pri:0, instance:com.testcases.Assignment1Test@f6c48ac] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.testcases.Assignment2Test.amazonPrice()]]>
+                <![CDATA[public void com.testcases.Assignment1Test.addMobileToCart()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testcases.Assignment2Test@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="2009" started-at="2019-11-11T21:46:19Z" finished-at="2019-11-11T21:46:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="flipkartPrice()[pri:2, instance:com.testcases.Assignment2Test@f6c48ac]" name="flipkartPrice" duration-ms="9004" started-at="2019-11-11T21:46:21Z" finished-at="2019-11-11T21:46:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flipkartPrice -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testcases.Assignment2Test@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1716" started-at="2019-11-11T21:46:31Z" finished-at="2019-11-11T21:46:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=flipkartPrice status=SUCCESS method=Assignment2Test.flipkartPrice()[pri:2, instance:com.testcases.Assignment2Test@f6c48ac] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.testcases.Assignment2Test.flipkartPrice()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.testcases.Assignment2Test -->
-    </test> <!-- Compare Prices -->
-  </suite> <!-- My suite -->
+      </class> <!-- com.testcases.Assignment1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -53,7 +53,6 @@ public class BaseSetup {
 		if (webDriver == null) {
 			
 			configProperty = PropertyFileManager.createConfigPropertyInstance();
-			ORProperty = PropertyFileManager.createObjectRepoPropertyInstance();
 			DriverFactory.createInstance(configProperty.getProperty("browser"));
 		} 
 
